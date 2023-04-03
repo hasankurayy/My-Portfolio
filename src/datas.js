@@ -128,8 +128,8 @@ export const projects = [
         id: 6,
         src: project6,
         title: "Youtube App",
-        code: "https://youtubehkry.surge.sh",
-        display: "https://github.com/hasankurayy/Youtube_React"
+        code: "https://github.com/hasankurayy/Youtube_React",
+        display: "https://youtubehkry.surge.sh"
     },
     {
         id: 7,

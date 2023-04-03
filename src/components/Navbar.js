@@ -33,7 +33,7 @@ function Navbar() {
             {showNavbar && 
             <div className=' z-10 flex flex-col absolute justify-center items-center top-0 left-0 w-full h-screen text-black bg-gradient-to-b from-black to-gray-500 '>
                 {links.map(link => (
-                    <Link key={link.id} to={link.link} className="py-2 font-medium text-gray-400 text-lg cursor-pointer">
+                    <Link onClick={() => setShowNavbar(false)} key={link.id} to={link.link} className="py-2 font-medium text-gray-400 text-lg cursor-pointer">
                         {link.name}
                     </Link>
                 ))}
