@@ -5,6 +5,12 @@ import javascript from "./assets/experience/javascript.png"
 import reactImage from "./assets/experience/react.png"
 import nextjs from "./assets/experience/nextjs.png"
 import tailwind from "./assets/experience/tailwind.png"
+import mongodb from "./assets/experience/mongodb.png"
+import mysql from "./assets/experience/mysql.png"
+import elastic from "./assets/experience/elastic2.png"
+import nodejs from "./assets/experience/nodejs.png"
+import nodejs2 from "./assets/experience/nodejs2.png"
+import git from "./assets/experience/git.png"
 
 // projects
 import project1 from "./assets/projects/e-commerce-app.png"
@@ -51,6 +57,42 @@ export const links = [
 
 export const experiences = [
     {
+        id: 7,
+        src: nodejs2,
+        title: "Nodejs",
+        style: "shadow-green-600"
+    },
+    {
+        id: 3,
+        src: javascript,
+        title: "JavaScript",
+        style: "shadow-yellow-500"
+    },
+    {
+        id: 8,
+        src: mongodb,
+        title: "MongoDB",
+        style: "shadow-green-600"
+    },
+    {
+        id: 9,
+        src: elastic,
+        title: "Elasticsearch",
+        style: "shadow-yellow-500"
+    },
+    {
+        id: 10,
+        src: git,
+        title: "Git",
+        style: "shadow-orange-500"
+    },
+    {
+        id: 11,
+        src: mysql,
+        title: "MySQL",
+        style: "shadow-blue-600"
+    },
+    {
         id: 1,
         src: html,
         title: "HTML",
@@ -62,12 +104,7 @@ export const experiences = [
         title: "CSS",
         style: "shadow-blue-500"
     },
-    {
-        id: 3,
-        src: javascript,
-        title: "JavaScript",
-        style: "shadow-yellow-500"
-    },
+
     {
         id: 4,
         src: reactImage,
@@ -78,13 +115,13 @@ export const experiences = [
         id: 5,
         src: nextjs,
         title: "Next JS",
-        style: "shadow-sky-400"
+        style: "shadow-sky-100"
     },
     {
         id: 6,
         src: tailwind,
         title: "Tailwind",
-        style: "shadow-pink-500"
+        style: "shadow-blue-500"
     }
 ]
 
