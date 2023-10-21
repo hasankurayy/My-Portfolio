@@ -17,8 +17,8 @@ function Home() {
                 </h1>
                 <p className='text-justify opacity-50 text-sm sm:text-base'>
                     My name is Hasan Kuray. I'm from Samsun, Turkey. I was born in 2000. I have been developing myself as a Front-End Developer in recent months,
-                    you can review my projects and programming languages ​​that I work.
-                    I love to work on web application using technologies like React, Tailwind and Next JS.
+                    you can review my projects and programming languages that I work.
+                    I love to work on web application using technologies like Nodejs and React.
                 </p>
             </div>
 
