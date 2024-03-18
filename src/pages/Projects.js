@@ -17,8 +17,8 @@ function Projects() {
                             <div className='text-center py-2 text-xl opacity-90'>{project.title}</div>
                             <img className='rounded-md' src={project.src} alt="" />
                             <div className='flex items-center justify-center'>
-                                <a href={project.display} target="_blank" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 opacity-60 hover:opacity-100'>Display</a>
-                                <a href={project.code} target="_blank" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 opacity-60 hover:opacity-100'>Code</a>
+                                <a href={project.display} target="_blank" rel="noreferrer" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 opacity-60 hover:opacity-100'>Display</a>
+                                <a href={project.code} target="_blank" rel="noreferrer" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 opacity-60 hover:opacity-100'>Code</a>
                             </div>
                         </div>
                     ))}

@@ -8,9 +8,9 @@ import tailwind from "./assets/experience/tailwind.png"
 import mongodb from "./assets/experience/mongodb.png"
 import mysql from "./assets/experience/mysql.png"
 import elastic from "./assets/experience/elastic2.png"
-import nodejs from "./assets/experience/nodejs.png"
-import nodejs2 from "./assets/experience/nodejs2.png"
+import nodejs from "./assets/experience/node.png"
 import git from "./assets/experience/git.png"
+import nestjs from "./assets/experience/nestjs.png"
 
 // projects
 import project1 from "./assets/projects/e-commerce-app.png"
@@ -58,9 +58,15 @@ export const links = [
 export const experiences = [
     {
         id: 7,
-        src: nodejs2,
+        src: nodejs,
         title: "Nodejs",
         style: "shadow-green-600"
+    },
+    {
+        id: 12,
+        src: nestjs,
+        title: "Nestjs",
+        style: "shadow-pink-700"
     },
     {
         id: 3,

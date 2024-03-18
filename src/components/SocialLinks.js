@@ -8,7 +8,7 @@ function SocialLinks() {
             <div className='hidden md:flex flex-col top-[35%] left-0 fixed'>
                 <ul>
                     <li className='rounded-tr-md flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500'>
-                        <a href="https://www.linkedin.com/in/hasan-kuray-2318ab266/" rel='noopener noreferrer' target="_blank" className='flex justify-between items-center w-full text-white'>
+                        <a href="https://www.linkedin.com/in/hasan-kuray/" rel='noopener noreferrer' target="_blank" className='flex justify-between items-center w-full text-white'>
                             Linkedin <FaLinkedin size={30} />
                         </a>
                     </li>
@@ -23,7 +23,7 @@ function SocialLinks() {
                         </a>
                     </li>
                     <li className='rounded-br-md flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500'>
-                        <a href={require("../assets/resume.pdf")} target="_blank" rel='noopener noreferrer' className='flex justify-between items-center w-full text-white'>
+                        <a href={require("../assets/Hasan_Kuray_Resume.pdf")} target="_blank" rel='noopener noreferrer' className='flex justify-between items-center w-full text-white'>
                             Resume <BsFillPersonLinesFill size={30} />
                         </a>
                     </li>

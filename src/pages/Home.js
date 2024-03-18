@@ -13,12 +13,13 @@ function Home() {
 
             <div>
                 <h1 className='text-xl font-semibold mb-2 sm:text-4xl'>
-                    I'm a Jr. Frontend Developer
+                    I'm a Full-Stack Developer
                 </h1>
                 <p className='text-justify opacity-50 text-sm sm:text-base'>
-                    My name is Hasan Kuray. I'm from Samsun, Turkey. I was born in 2000. I have been developing myself as a Front-End Developer in recent months,
+                    My name is Hasan Kuray. I'm from Samsun, Turkey. I was born in 2000. I have been developing myself as a Full-Stack Developer in recent months
+                    but I like backend coding a little more than frontend coding,
                     you can review my projects and programming languages that I work.
-                    I love to work on web application using technologies like Nodejs and React.
+                    I love to work on web application using technologies like Nodejs, Nestjs and React.
                 </p>
             </div>
 
